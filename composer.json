@@ -1,0 +1,29 @@
+{
+  "name": "charcoal-dev/xrkl-coredata-module",
+  "description": "CoreData module for Charcoal Apps",
+  "type": "library",
+  "homepage": "https://github.com/charcoal-dev/xrkl-coredata-module",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Furqan A. Siddiqui",
+      "email": "hello@furqansiddiqui.com",
+      "homepage": "https://www.furqansiddiqui.com",
+      "role": "Author"
+    }
+  ],
+  "require": {
+    "php": "^8.3"
+  },
+  "require-dev": {
+    "charcoal-dev/app-kernel": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Charcoal\\Framework\\Modules\\CoreData\\": [
+        "src"
+      ]
+    }
+  },
+  "minimum-stability": "dev"
+}
