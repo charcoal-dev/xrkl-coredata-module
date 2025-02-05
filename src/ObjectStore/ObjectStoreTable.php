@@ -14,6 +14,7 @@ use Charcoal\Framework\Modules\CoreData\CoreDataModule;
 /**
  * Class ObjectStoreTable
  * @package Charcoal\Framework\Modules\CoreData\ObjectStore
+ * @property CoreDataModule $module
  */
 class ObjectStoreTable extends AbstractOrmTable
 {

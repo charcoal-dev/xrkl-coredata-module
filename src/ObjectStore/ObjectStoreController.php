@@ -10,11 +10,13 @@ use Charcoal\Buffers\Buffer;
 use Charcoal\Cache\Exception\CacheException;
 use Charcoal\Cipher\Encrypted;
 use Charcoal\Cipher\Exception\CipherException;
+use Charcoal\Framework\Modules\CoreData\CoreDataModule;
 use Charcoal\OOP\Vectors\StringVector;
 
 /**
  * Class ObjectStoreController
  * @package Charcoal\Framework\Modules\CoreData\ObjectStore
+ * @property CoreDataModule $module
  */
 class ObjectStoreController extends AbstractOrmRepository
 {
